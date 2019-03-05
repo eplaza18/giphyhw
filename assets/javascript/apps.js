@@ -12,7 +12,7 @@ renderButtons();
 function addGifs() {
   
   let gif = $(this).attr('data-name');
-  var queryURL = 'http:api.giphy.com/v1/gifs/search?q=' + gif + '&api_key=dc6zaTOxFJmzC&limit=10&fixed_height_still';
+  var queryURL = 'https:api.giphy.com/v1/gifs/search?q=' + gif + '&api_key=dc6zaTOxFJmzC&limit=10&fixed_height_still';
 
   $.ajax({
     url: queryURL,
